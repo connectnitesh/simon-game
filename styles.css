@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  background: #0a0a0a;
+
+}
+
+#level-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.5rem;
+  margin:20px auto;
+  color: #fff;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  height:max-content;
+  margin: auto;
+  /* background-color: #000; */
+  background: #0a0a0a;
+  box-shadow:  10px 10px 20px #040404,
+               -10px -10px 20px #101010;
+  border-radius: 300px;
+  padding:25px;
+}
+
+#start-btn{
+  background: #0d0d0d;
+box-shadow:  5px 5px 0px #050505,
+             -5px -5px 0px #151515;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  width: max-content;
+  position: absolute;
+  padding:1.6rem 1rem;
+  border-radius: 50%;
+  border:35px solid #0d0d0d;
+  z-index: 2000;
+  top:270px;
+  left: 580px;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 210px;
+  width: 260px;
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  border-radius: 104px 162px 51px 80px;
+  background: linear-gradient(145deg, #ff0000, #e60000);
+  box-shadow:  5px 5px 10px #660000,
+               -5px -5px 10px #ff0000;;
+  
+}
+
+.green {
+  border-radius: 162px 104px 80px 51px;
+  background: linear-gradient(145deg, #008900, #007300);
+  box-shadow:  5px 5px 10px #003300,
+               -5px -5px 10px #00cd00;
+}
+
+.blue {
+  background: linear-gradient(145deg, #0000ff, #0000e6);
+  box-shadow:  5px 5px 10px #000066,
+               -5px -5px 10px #0000ff;
+  border-radius: 80px 51px 162px 104px;
+}
+
+.yellow {
+  background: linear-gradient(145deg, #ffff00, #e6e600);
+  box-shadow:  5px 5px 10px #666600,
+               -5px -5px 10px #ffff00;
+  border-radius: 80px 51px 104px 164px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.rules{
+  position: absolute;
+  bottom: 4%;
+  right:4%;
+  text-decoration: none;
+  font-size: 1.4rem;
+  background: #0d0d0d;
+  padding:10px;
+  box-shadow: 3px 2px 0px #050505,
+             -3px -2px 0px #151515;
+  color:white;
+  border-radius:14px;
+}
+
+.rules:hover{
+  color:#ccc;
+  cursor: pointer;
+}
+
+.rules-up {
+  display: none;
+  text-align: left;
+  width:250px;
+  color:white;
+  position: absolute;
+  bottom: 60px;
+  right:20px;
+  font-family: 'Luckiest Guy', cursive;
+
+}
+
+.show{
+  display: block;
+}
