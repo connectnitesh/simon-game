@@ -16,6 +16,7 @@ body {
   width: 50%;
   height:max-content;
   margin: auto;
+  position: relative;
   /* background-color: #000; */
   background: #0a0a0a;
   box-shadow:  10px 10px 20px #040404,
@@ -37,8 +38,8 @@ box-shadow:  5px 5px 0px #050505,
   border-radius: 50%;
   border:35px solid #0d0d0d;
   z-index: 2000;
-  top:270px;
-  left: 38%;
+  top:33%;
+  left: 34%;
 }
 
 .btn {
